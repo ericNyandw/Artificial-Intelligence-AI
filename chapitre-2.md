@@ -56,7 +56,24 @@ L'IA Générative est devenue possible grâce à la combinaison de **quatre avan
 | **Cloud Computing** ☁️                | L'infrastructure qui héberge les modèles et les rend accessibles via Internet. | Microsoft Azure, Amazon Web Services (AWS), Google Cloud Platform (GCP) |
 
 Ces quatre éléments sont complémentaires. Sans l'un d'eux, l'IA Générative moderne ne pourrait pas fonctionner à l'échelle actuelle.
+### Schéma récapitulatif
 
+```text
+          IA Générative
+                │
+     ┌──────────┼──────────┐
+     │          │          │
+     ▼          ▼          ▼
+   LLM      Big Data    GPU / TPU
+ (Cerveau) (Nourriture) (Muscles)
+                │
+                ▼
+       Cloud Computing
+      (Infrastructure)
+                │
+                ▼
+     IA accessible partout
+```
 > **À savoir :** Les modèles d'IA sont généralement accessibles via le **Cloud** (Internet). Cependant, des outils comme **Ollama** permettent aujourd'hui d'exécuter certains modèles (comme **Llama** ou **Mistral**) directement sur le GPU de son ordinateur, sans connexion Internet une fois le modèle téléchargé.
 ---
 
