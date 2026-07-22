@@ -13,9 +13,9 @@ Voici l'organisation des fichiers et des ressources de ce dépôt :
 ```text
 📁 Artificial-Intelligence-AI
 │
-├── 📝 README.md          <- (Vous êtes ici) Présentation globale et sommaire
-├── 📄 chapitre-1.md      <- Introduction à l'IA et à l'IA Distribuée (DAI)
-├── 📄 chapitre-2.md      <- Fonctionnement et enjeux de l'IA Générative
+├── 📝 [README.md](./README.md)          <- (Vous êtes ici) Présentation globale et sommaire
+├── 📄 [chapitre-1](./chapitre-1.md)     <- Introduction à l'IA et à l'IA Distribuée (DAI)
+├── 📄 [chapitre-1](./chapitre-2.md)      <- Fonctionnement et enjeux de l'IA Générative
 │       
 └── 📁 images/
     └── 🖼️ Gen AI - IAD.jpg
