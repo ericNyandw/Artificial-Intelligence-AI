@@ -48,6 +48,8 @@ Un **Agent** est une entité autonome capable de prendre des décisions par elle
 | - Ressources|      | - A2A         |      | - Coordination |
 +-------------+      +---------------+      +----------------+
 ```
+![Agent](images/concept-agent.jpg)
+
 
 #### 🌍 L'Environnement (Environment)
 > Un agent évolue dans un environnement contenant les ressources (outils) nécessaires à l'accomplissement de sa tâche.
