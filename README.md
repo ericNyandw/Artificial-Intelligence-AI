@@ -13,12 +13,13 @@ Voici l'organisation des fichiers et des ressources de ce dépôt :
 ```text
 📁 Artificial-Intelligence-AI
 │
-├── 📝 [README.md](./README.md)          <- (Vous êtes ici) Présentation globale et sommaire
+├── 📝 [README.md]('https://github.com/ericNyandw/Artificial-Intelligence-AI/blob/main/README.md)          <- (Vous êtes ici) Présentation globale et sommaire
 ├── 📄 [chapitre-1](./chapitre-1.md)     <- Introduction à l'IA et à l'IA Distribuée (DAI)
-├── 📄 [chapitre-1](./chapitre-2.md)      <- Fonctionnement et enjeux de l'IA Générative
+├── 📄 [chapitre-2](./chapitre-2.md)      <- Fonctionnement et enjeux de l'IA Générative
+├── 📄 [chapitre-3](./chapitre-3.md)      <- Fonctionnement et enjeux de Machine learning
 │       
 └── 📁 images/
-    └── 🖼️ Gen AI - IAD.jpg
+    
 ```
 
 ---
