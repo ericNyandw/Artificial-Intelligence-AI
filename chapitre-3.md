@@ -10,12 +10,10 @@ sans être explicitement programmées pour chaque tâche.
 
 #### 🧠 2. La Programmation Traditionnelle vs Le Machine Learning
 
-- **Programmation Traditionnelle :**
-![Programmation Traditionnelle](images/programTradi.jpg)
->Tu donnes des Règles (le **code**) et des **Données (Data)** à l'ordinateur (**Computeur**), et il te sort des **Résultats**. Exemple : Si score > 50, alors afficher "Réussi".
+- ![Programmation Traditionnelle](images/programTradi.jpg)
+>Tu donnes des Règles (le **code**) et des **Données (Data)** à l'ordinateur (**Computer**), et il te sort des **Résultats**. Exemple : Si score > 50, alors afficher "Réussi".
 
-- **Machine Learning :**
-  ![Machine Learning](images/Algo-ML.jpg)
+- ![Machine Learning](images/Algo-ML.jpg)
 > Tu donnes des **Données (Data-Features)** et **les Résultats attendus (ou observés-Label ou Target). Learning algorithm** à l'ordinateur.
 L'algorithme cherche le lien logique entre les deux et générer de manière autonome un **Model (Modèle)**.
 Exemple : Tu lui donnes 10 000 photos de chats et 10 000 photos de chiens en lui disant qui est quoi.
@@ -26,8 +24,8 @@ Exemple : Tu lui donnes 10 000 photos de chats et 10 000 photos de chiens en lui
 **Comment la machine fait-elle pour "apprendre" ?**
 
 Elle suit un processus mathématique itératif en 3 étapes :
-1. **L'Inférence (Inference / Prediction)** : Au départ, le modèle a des paramètres mathématiques (poids) aléatoires. On lui donne une **Feature (\(X\)**) et il fait une prédiction au hasard (\(\^{Y}\)).
-2. **Le Calcul de l'Erreur (Loss Function)** : Le modèle compare sa prédiction (\(\^{Y}\)) avec la **Ground Truth** (la vérité terrain, la vraie valeur historique \(Y\)). Il mesure mathématiquement la distance de son erreur.
+1. **L'Inférence (Inference / Prediction)** : Au départ, le modèle a des paramètres mathématiques (poids) aléatoires. On lui donne une **Feature $X$**) et il fait une prédiction au hasard $\hat{Y}$).
+2. **Le Calcul de l'Erreur (Loss Function)** : Le modèle compare sa prédiction $\hat{Y}$) avec la **Ground Truth** (la vérité terrain, la vraie valeur historique $Y$). Il mesure mathématiquement la distance de son erreur.
 3. **L'Optimisation (Optimization)** : L'algorithme ajuste légèrement ses poids internes pour réduire l'erreur lors de la prochaine tentative.
 
 
@@ -47,7 +45,7 @@ Imagine que tu es un professeur et que tu prépares un examen.
 - Une donnée non-étiquetée, c'est la question de l'exercice toute seule.
 - Une donnée étiquetée, c'est la question **ACCOMPAGNÉE de son corrigé** (la bonne réponse).
 
-##### 🛠️ Exemple concret avec un tableau (Dataset) :
+##### 🛠️ Exemple concret avec un tableau (**Dataset**) :
 Imaginons qu'on veuille prédire le prix d'une maison. Ton fichier de données ressemble à ça :
 
 | Surface (m²) | Nombre de chambres | Ville     | Prix (€)                   |
@@ -56,8 +54,8 @@ Imaginons qu'on veuille prédire le prix d'une maison. Ton fichier de données r
 | 120          | 3                  | Lyon      | **600 000** (Ground Truth) |
 | 85           | 2                  | Marseille | **350 000** (Ground Truth) |
 
-- **Les Caractéristiques (Features - (X))** : La surface, les chambres, la ville. Ce sont les indices.
--  **L'Étiquette (Label ou Target - (Y))** : Le **Prix (€)**. La cible à prédire (la réponse).
+- **Les Caractéristiques (Features $X$)** : La surface, les chambres, la ville. Ce sont les indices.
+-  **L'Étiquette (Label ou Target $Y$)** : Le **Prix (€)**. La cible à prédire (la réponse).
 -  **Ground Truth** : La vérité terrain (la vraie valeur historique du tableau).
 > Si ton tableau contient la colonne "Prix", tes données sont **étiquetées (Labeled Data)**. Si tu caches la colonne "Prix" et que la machine doit se débrouiller seule, les données sont **non-étiquetées (no Labeled Data)**.
 
